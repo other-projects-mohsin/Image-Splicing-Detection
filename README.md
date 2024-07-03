@@ -45,6 +45,16 @@ and ANN-based classifier](https://drive.google.com/file/d/1flkuNAsaNPdJjK83W9kg7
 
    - **Future Direction**: Future research will develop automated techniques to detect and locate image splicing, solving the current model's limitation of not finding the exact spliced areas. Another area to explore is fixing the tampered regions based on detected forgery locations, which could greatly benefit image forensics.
 
+[Splicing Image Forgery Detection Based on DCT and
+Local Binary Pattern](http://ieeexplore.ieee.org/abstract/document/6736863)
+
+   - **Methodology**: The proposed image forgery detection method which is relatively simpler than other discussed approaches starts by converting an RGB color image to the YCbCr color space. The chrominance component (Cb or Cr) is then segmented into 16x16 overlapping blocks, and each block undergoes Local Binary Pattern (LBP) and Discrete Cosine Transform (DCT). Within each block, the standard deviation of DCT coefficients is computed, yielding a feature set for detection. Additionally, LBP is computed for each block, transformed into the frequency domain via 2D DCT, and standard deviations of frequency coefficients across all blocks are calculated. These standard deviations serve as features for a support vector machine (SVM) classifier, achieving detection accuracies as high as 97% on standard splicing image forgery datasets.
+
+   - **Results**: The proposed method achieved a detection accuracy of up to 97% on benchmark splicing image forgery databases, demonstrating its effectiveness. Optimal performance was found using specific LBP parameters (P = 8, R = 1). Focusing on the chromatic components Cb and Cr notably enhanced detection accuracy, with Cb achieving 96.5% and Cr reaching 95.8%.
+
+## Acknowledgement
+
+Source code is adapted from official repo of papers and [here](https://github.com/PallaviPandey77/Image-Forgery-Detection-Using-Passive-Approach)
 
 
 
