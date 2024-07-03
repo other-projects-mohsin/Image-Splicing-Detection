@@ -1,7 +1,7 @@
 
 # Image Splicing Detection
 
-In this project, I independently explored Image Splicing detection through a computer vision approach. This work was conducted in collaboration with the Omdena team, following the completion of the official chapter project, (which is was included in the report).
+In this project, I independently explored Image Splicing detection through a computer vision approach. This work was conducted independently, following the completion of the official chapter project, (which was not included in the report).
 
 Team Lead: [Elena Burlando](https://www.linkedin.com/in/elena-burlando-43665b59/)
 
