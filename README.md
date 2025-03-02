@@ -1,9 +1,7 @@
 
 # Image Splicing Detection
 
-In this project, I independently explored Image Splicing detection through a computer vision approach. This work was conducted independently, following the completion of the official chapter project, (which was not included in the report).
-
-Team Lead: [Elena Burlando](https://www.linkedin.com/in/elena-burlando-43665b59/)
+In this project, I independently explored Image Splicing detection through a computer vision approach. This work was conducted independently, following the work of URA at ARSD.
 
 ## Image Splicing
 Image splicing means cutting and pasting parts of one image into another to make a new image. This method is often used to change or edit photos, sometimes to mislead people or create forged . It's important to spot image splicing to check if images are real, especially in areas like digital forensics, media, and security.
